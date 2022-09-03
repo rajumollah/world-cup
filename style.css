@@ -1,0 +1,198 @@
+body {
+    padding: 15px;
+    margin: 0;
+    color: #fff;
+    
+}
+a{
+    text-decoration: none;
+}
+
+
+.conteiner {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-radius: 10px;
+}
+
+.card-text {
+    text-align: center;
+    padding: 100px 0;
+}
+
+.card-text h1 {
+    font-size: 40px;
+}
+
+.card-text p {
+    font-size: 16px;
+    padding: 0 10px;
+}
+
+.card-text button {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+    background-color: red;
+    border-radius: 15px;
+    color: #fff;
+
+
+}
+
+.btn-div{
+    display: flex;
+    justify-content: center;
+   
+}
+
+.btn-div i {
+    padding-left: 6px;
+}
+
+.card-image {
+    text-align: center;
+    width: 100%;
+    margin-top: -100px;
+}
+
+.container-tow{
+    margin-top: 50px;
+}
+
+.menu-box {
+    display: flex;
+    justify-content: center;
+
+
+}
+.menu-box a li {
+    list-style: none;
+    padding: 20px;
+    border-radius: 10px;
+    border: 1px solid grey;
+
+}
+.menu-box a {
+     text-decoration: none;
+    display: block;
+    text-align: center;
+    margin:10px 0 0;
+    color:black;
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 10px;
+} 
+.menu-box a :hover{
+    background-color: red;
+}
+
+.card-box{
+    margin-top: 20px;
+}
+
+.blog-image img{
+    width: 100%;
+}
+
+.blog-text{
+    padding-top: 20px;
+    padding-left: 20px;
+    color: black;
+    border: 1px solid gray;
+    border-top: none;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding-bottom:20px;
+
+}
+
+.blog-text button{
+    padding: 10px 20px;
+    border-radius: 10px;
+
+}
+
+.comment-box{
+    display: flex;
+
+}
+
+.comment-box div {
+    display: flex;
+    align-items: center;
+    margin-right: 20px;
+    color: gray;
+}
+
+.phalk-img-blog{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: black;
+    
+
+}
+
+.phalk-img-blog span{
+    padding: 30px;
+
+}
+.phalk-one{
+    border: 1px solid gray;
+    border-radius: 15px;
+    padding: 30px 40px;
+}
+.phalk-text{
+    text-align: center;
+    border: none;
+}
+.footer{
+    padding: 100px 0;
+    width: 100%;
+    margin-top: 30px;
+    
+    background-color: black;
+
+}
+.footer-head{
+    text-align: center;
+    border-bottom: 2px solid gray;
+    width: 80% ;
+    margin: 0 auto;
+}
+.footer .row ul{
+    display: flex;
+    text-align: center;
+    justify-content: center;
+    flex-direction: column;
+    
+}
+.footer .row ul li{
+    list-style: none;
+    margin-right: 15px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+.footer a{
+    color: #fff;
+}
+@media only screen and (min-width:767px){
+.card-box{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    
+}
+.card-one{
+    width: 40%;
+    margin: 0;
+    
+}
+
+}
+
